@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script> 
+    <style>
+    *{
+        background-color: #ffd2fd;
+    }
+    .task1 p{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 40px 5px;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 4px;
+    font-size: larger;
+    font-weight: 50%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <h1>JS задачки</h1>
+    <hr>
+    <div class="task1">
+        <p onclick="fun1()">Задание №1<br>Напишите функцию, которая принимает 2 числа и возвращает 1, если первое
+            число больше, чем второе; -1, если первое число меньше, чем второе, и 0, если числа
+            равны.
+            </p> 
+        <p onclick="fun2('red', 'white', 'Lorem ipsum sit amet')">Задание №2<br>Напишите функцию, которая принимает цвет фона, цвет текста, строку с
+            текстом и выводит методом write()абзац с соответствующими стилями. Например,
+            функция myParagraph("red", "white", "Lorem ipsum sit amet")выведет абзац с
+            текстом "Lorem ipsum sit amet" белого цвета на красном фоне.</p> 
+        <p onclick="fun3()">Задание №3<br>Напишите функцию, которая принимает 2 параметра: длину и ширину
+            прямоугольника и вычисляет его площадь. Если в функцию передали 1 параметр, то
+            функция вычисляет площадь квадрата.
+            </p>
+        <p onclick="fun4()">Задание №4<br>Написать функцию, получающую на вход два числа. Если оба числа чётные -
+            функция возвращает их произведение. Если оба числа нечётные - функция возвращает
+            их сумму. Если одно из чисел чётное, а второе нечётное - функция возвращает это
+            нечётное число.</p> 
+    </div>
+</body>
+</html>
